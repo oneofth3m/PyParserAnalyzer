@@ -1,0 +1,16 @@
+2017-09-01 18:00:00 Scan Started for table TableA from Row 1 to Row 10
+2017-09-01 18:10:01 Scan Started for table TableA from Row 20 to Row 30
+2017-09-01 18:20:02 Scan Started for table TableA from Row 10 to Row 20
+2017-09-01 18:30:03 Scan Completed for table TableB from Row 30 to Row 40
+2017-09-01 18:40:01 Scan Started for table TableB from Row 40 to Row 50
+2017-09-01 18:40:01 Scan Started for table TableB from Row 50 to Row 60
+2017-09-01 19:10:03 Scan Completed for table TableA from Row 20 to Row 30
+2017-09-01 19:20:02 Scan Started for table TableA from Row 30 to Row 40
+2017-09-01 19:20:03 Scan Completed for table TableA from Row 1 to Row 10
+2017-09-01 19:20:03 Scan Completed for table TableB from Row 40 to Row 50
+2017-09-01 19:10:04 Scan Completed for table TableB from Row 50 to Row 60
+
+
+
+
+

@@ -1,0 +1,29 @@
+{
+  "name": "ComponentOne",
+  "log_file_pattern": "component_one_log.(?P<loglevel>(info|error)).(?P<timestamp>\\d{8}-\\d{6})"
+  "debug_level": "info",
+  "patterns": [
+    {
+      "name": "Start Scan",
+      "_comment": "Start of Scan.",
+      "versions": [
+        {
+          "version": "All",
+          "sample_log_line": "2017-09-01 18:30:03 Scan Completed for table TableB from Row 30 to Row 40",
+          "pattern": "(?P<timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}-\\d{2}-\\d{2}) Scan Completed for table (?P<table_name>[a-zA-Z]+) from Row (?P<row_start>\\d+) to Row (?P<row_end>\\d+)"
+        }
+      ]
+    },
+    {
+      "name": "End Scan",
+      "_comment": "End of Scan.",
+      "versions": [
+        {
+          "version": "All",
+          "sample_log_line": "2017-09-01 19:10:03 Scan Completed for table TableA from Row 20 to Row 30",
+          "pattern": "(?P<timestamp>\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}:\\d{2}) Scan Completed for table (?P<table_name>[a-zA-Z]+) from Row (?P<row_start>\\d+) to Row (?P<row_end>\\d+)"
+        }
+      ]
+    }
+  ]
+}

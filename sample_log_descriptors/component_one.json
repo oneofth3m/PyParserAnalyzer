@@ -1,6 +1,6 @@
 {
   "name": "ComponentOne",
-  "log_file_pattern": "component_one_log.(?P<loglevel>(info|error)).(?P<timestamp>\\d{8}-\\d{6})"
+  "log_file_pattern": "component_one_log.(?P<loglevel>(info|error)).(?P<timestamp>\\d{8}-\\d{6})",
   "debug_level": "info",
   "patterns": [
     {
